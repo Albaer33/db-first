@@ -1,0 +1,15 @@
+Auto
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE, INDEX) - AUTO_INCREMENT
+brand - VARCHAR(50) - NOTNULL
+model - VARCHAR(50) - NOTNULL
+typeOfCar - VARCHAR(20)
+year - YEAR - NOTNULL
+color - VARCHAR(40)
+horsepower - SMALLINT
+kmTraveled - MEDIUMINT
+suspension - VARCHAR(240)
+price - DECIMAL(10, 2) - NOTNULL
+plate - VARCHAR(20)
+description - TEXT
+img - VARCHAR(100) - DEFAULT(‘/img/src/default.png’)
